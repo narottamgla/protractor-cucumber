@@ -1,0 +1,791 @@
+[
+  {
+    "description": "  As a user\n  i want to test Login functionality of NLBC",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "NLBC Login test",
+    "tags": [],
+    "uri": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\login.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify NLBC login with invalid credentials",
+        "tags": [],
+        "id": "nlbc-login-test;verify-nlbc-login-with-invalid-credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to \"http://www.nlbootcamps.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 5995
+            },
+            "line": 6,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\loginSteps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click Login Menu on home page",
+            "result": {
+              "status": "passed",
+              "duration": 89
+            },
+            "line": 7,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\loginSteps.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see many login page",
+            "result": {
+              "status": "passed",
+              "duration": 235
+            },
+            "line": 8,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\loginSteps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter user name  as \"testu\" & password as \"testpass\" as invalid",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "line": 9,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\loginSteps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I Click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "line": 10,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\loginSteps.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should not able to login",
+            "result": {
+              "status": "passed",
+              "duration": 16683
+            },
+            "line": 11,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\loginSteps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:65"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify NLBC login with invalid credentials using datatable",
+        "tags": [],
+        "id": "nlbc-login-test;verify-nlbc-login-with-invalid-credentials-using-datatable",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to \"http://www.nlbootcamps.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 2369
+            },
+            "line": 14,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\loginSteps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click Login Menu on home page",
+            "result": {
+              "status": "passed",
+              "duration": 89
+            },
+            "line": 15,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\loginSteps.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see many login page",
+            "result": {
+              "status": "passed",
+              "duration": 313
+            },
+            "line": 16,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\loginSteps.js:18"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "testuser"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "password",
+                      "testpassword"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I enter user name and password as invalid",
+            "result": {
+              "status": "passed",
+              "duration": 2
+            },
+            "line": 17,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\loginSteps.js:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I Click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": 20,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\loginSteps.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should not able to login",
+            "result": {
+              "status": "passed",
+              "duration": 1410
+            },
+            "line": 21,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\loginSteps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:65"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "nlbc-login-test"
+  },
+  {
+    "description": "  As a user\n  i want to test sign-up functionality of NLBC",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "NLBC signup test",
+    "tags": [],
+    "uri": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\signup.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify NLBC Signup with invalid details",
+        "tags": [
+          {
+            "line": 5,
+            "name": "@dev"
+          }
+        ],
+        "id": "nlbc-signup-test;verify-nlbc-signup-with-invalid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to \"https://nlbootcamps.com/register/student\" page",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": 7,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"user\" , \"fanme\" , \"lname\" , \"pasword\" , \"password\" , \"242424\" , \"Male\"",
+            "result": {
+              "status": "passed",
+              "duration": 3
+            },
+            "line": 8,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I clicks signUp button",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "line": 9,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Sign-up to NLBC should unsuccessful",
+            "result": {
+              "status": "passed",
+              "duration": 1830
+            },
+            "line": 10,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:57"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Verify NLBC Signup with invalid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@stag"
+          }
+        ],
+        "id": "nlbc-signup-test;verify-nlbc-signup-with-invalid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 2
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to \"https://nlbootcamps.com/register/student\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "line": 14,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"usertest\" , \"testname\" , \"tset\" , \"password\" , \"password\" , \"776655555\" , \"Male\"",
+            "result": {
+              "status": "passed",
+              "duration": 2
+            },
+            "line": 15,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I clicks signUp button",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": 16,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Sign-up to NLBC should unsuccessful",
+            "result": {
+              "status": "passed",
+              "duration": 2056
+            },
+            "line": 17,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:61"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Verify NLBC Signup with invalid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@stag"
+          }
+        ],
+        "id": "nlbc-signup-test;verify-nlbc-signup-with-invalid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to \"https://nlbootcamps.com/register/student\" page",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": 14,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"usertest1\" , \"testname2\" , \"tset 2\" , \"password1\" , \"password2\" , \"776655555\" , \"Female\"",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "line": 15,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I clicks signUp button",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": 16,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Sign-up to NLBC should unsuccessful",
+            "result": {
+              "status": "passed",
+              "duration": 2159
+            },
+            "line": 17,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:61"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Verify NLBC Signup with invalid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@stag"
+          }
+        ],
+        "id": "nlbc-signup-test;verify-nlbc-signup-with-invalid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to \"https://nlbootcamps.com/register/student\" page",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": 14,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"usertest5\" , \"testname2\" , \"tset 12\" , \"password12\" , \"password21\" , \"776655555\" , \"Female\"",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "line": 15,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I clicks signUp button",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": 16,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Sign-up to NLBC should unsuccessful",
+            "result": {
+              "status": "passed",
+              "duration": 1875
+            },
+            "line": 17,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\step_definitions\\signUpSteps.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "G:\\Nuri\\cucumber-p\\protractor-cucumber\\features\\support\\hooks.js:61"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "nlbc-signup-test"
+  }
+]

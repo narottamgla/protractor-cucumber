@@ -1,0 +1,9 @@
+{
+	"test":{
+			"appUrl": "http://www.nlbootcamps.com/"
+		},
+		
+	"dev":{
+			"appUrl": "http://www.nlbootcamps.com/"
+		}
+}

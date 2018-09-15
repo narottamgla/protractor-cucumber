@@ -1,0 +1,32 @@
+{
+  "name": "protractor-cucumber-tests",
+  "version": "1.0.0",
+  "description": "Protractor BDD Tests with cucumber",
+  "main": "index.js",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "fs-extra": "^0.30.0",
+    "grunt": "^1.0.1"
+  },
+  "bin": {
+    "protractor": "bin/protractor",
+    "webdriver-manager": "bin/webdriver-manager"
+  },
+  "scripts": {
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update",
+    "preprotractor": "npm run update-webdriver",
+    "protractor": "protractor conf.js"
+  },
+  "devDependencies": {
+    "protractor": "5.1.2",
+    "cucumber": "2.3.1",
+    "protractor-cucumber-framework": "3.1.2",
+    "chai": "3.5.0",
+    "chai-as-promised": "6.0.0",
+    "cucumber-html-reporter": "2.0.0",
+    "grunt-protractor-runner": "5.0.0"
+  },
+  "author": "Narottam Singh",
+  "license": "MIT"
+}
