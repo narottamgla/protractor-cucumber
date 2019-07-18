@@ -49,5 +49,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-protractor-runner');
 
     // Default task(s).
-    grunt.registerTask('default', ['runner']);
+    grunt.registerTask('default', ['protractor:test']);
 };
