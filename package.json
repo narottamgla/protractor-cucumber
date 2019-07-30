@@ -1,7 +1,7 @@
 {
   "name": "protractor-cucumber-tests",
   "version": "1.0.0",
-  "description": "Protractor BDD Tests with cucumber",
+  "description": "Protractor BDD Tests with cucumber and grunt",
   "main": "index.js",
   "dependencies": {
     "base-64": "^0.1.0",
