@@ -6,7 +6,7 @@
   "dependencies": {
     "base-64": "^0.1.0",
     "fs-extra": "^0.30.0",
-    "grunt": "^1.0.1"
+    "grunt": "^1.5.2"
   },
   "bin": {
     "protractor": "bin/protractor",
